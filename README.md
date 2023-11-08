@@ -1,6 +1,7 @@
 
 # Experiment--09-Implementation-of Shift-registers-using-verilog-
-### AIM: To implement PISO , PIPO,PISO  using verilog and validating their functionality using their functional tables
+### AIM:
+To implement PISO , PIPO,PISO  using verilog and validating their functionality using their functional tables
 ### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
 ### SOFTWARE REQUIRED:   Quartus prime
 ### THEORY 
@@ -61,9 +62,9 @@ Ending module. endmodule is a keywords defined in Verilog.
 
 ### PROGRAM 
 
-Program for  Implementation-of Shift-registers-using-verilog-
-Developed by: 
-RegisterNumber:
+Developed by: S.Kishore
+
+RegisterNumber: 212222240050
 
 ## Serial Input Parallel Output:
 ```
@@ -78,6 +79,11 @@ end
 assign PO=temp;
 endmodule
 ```
+### RTL LOGIC  REGISTERS   
+![image](https://github.com/Kishore2o/Exercise-09-Shift-registers-using-verilog-/assets/118679883/023ecd64-f5b3-40bc-a59f-6402c1c708f4)
+
+### TIMING DIGRAMS FOR SHIFT REGISTERS
+![image](https://github.com/Kishore2o/Exercise-09-Shift-registers-using-verilog-/assets/118679883/f6312f9e-7b86-48cd-b88d-27745f55ab6c)
 
 ## Parallel Input Serial Output:
 ```
@@ -98,6 +104,13 @@ end
 end
 endmodule
 ```
+### RTL LOGIC  REGISTERS   
+![image](https://github.com/Kishore2o/Exercise-09-Shift-registers-using-verilog-/assets/118679883/4a266206-c409-46d8-a9c6-2d40f0eb9ba1)
+
+### TIMING DIGRAMS FOR SHIFT REGISTERS
+![image](https://github.com/Kishore2o/Exercise-09-Shift-registers-using-verilog-/assets/118679883/ebb59d6f-7a16-4db6-b68e-58302847e02d)
+
+
 ## Parallel Input Parallel Output:
 ```
 module pipo(Clk,Pi,Po);
@@ -113,22 +126,11 @@ endmodule
 
 
 ### RTL LOGIC  REGISTERS   
-
-
-
-
-
-
-
+![image](https://github.com/Kishore2o/Exercise-09-Shift-registers-using-verilog-/assets/118679883/9402d052-b1ad-41af-a46e-12acd513f12e)
 
 
 ### TIMING DIGRAMS FOR SHIFT REGISTERS
-
-
-
-
-
-
-
+![image](https://github.com/Kishore2o/Exercise-09-Shift-registers-using-verilog-/assets/118679883/a87c6d5b-1085-417d-b692-66be6c9ccec7)
 
 ### RESULTS 
+THUS THE PROGRAM TO IMPLEMENT SHIFT REGISTERS IS DONE SUCCESSFUL.
